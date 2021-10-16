@@ -209,7 +209,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1 \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.0 \
-    android.hardware.gnss@2.0.vendor
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@2.1 \
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss.measurement_corrections@1.0.vendor \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss.visibility_control@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -393,6 +398,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0 \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
